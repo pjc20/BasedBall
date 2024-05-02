@@ -1,5 +1,6 @@
 import json
 import os
+import simulate
 from datetime import datetime, timedelta
 from updateTeams import updateTeams
 
@@ -8,7 +9,7 @@ def updateGames():
         os.system('cls')
         with open("games2024.json",'r+') as gamesFile:
             data = json.load(gamesFile)
-            print('Enter date [MDD] or game ID to update, all to show incomplete to date, x to exit:')
+            print('Enter date [MDD] or game ID to update, all to show incomplete to date, s to run simulation, x to exit:')
             cmd = input()
             date = "2024-0"+cmd[:1]+"-"+cmd[1:3]
 
@@ -18,6 +19,10 @@ def updateGames():
                     if datetime.strptime(data[match]["date"], "%Y-%m-%d") <= today and not data[match]["complete"]:
                         print(data[match]["id"])
                 input("Press enter to continue")
+            elif cmd == "s":
+                iterations = int(input("Enter number of iterations: "))
+                simulate.simulate(iterations)
+                input("Simulation complete. Press enter to continue")
             elif len(cmd) == 3:
                 for match in data:
                     if data[match]["complete"] or not data[match]["date"] == date:
@@ -27,7 +32,6 @@ def updateGames():
                         continue
                     elif a == "-2":
                         data[match]["date"] = h
-                    else:
                         data[match] = update(data[match], a, h)
             elif 6 <= len(cmd) <= 7:
                 [a, h] = getScore(data[cmd])
