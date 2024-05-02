@@ -32,6 +32,7 @@ def updateGames():
                         continue
                     elif a == "-2":
                         data[match]["date"] = h
+                    else:
                         data[match] = update(data[match], a, h)
             elif 6 <= len(cmd) <= 7:
                 [a, h] = getScore(data[cmd])
