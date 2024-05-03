@@ -4700,30 +4700,42 @@
     "502MIA": {
         "id": "502MIA",
         "date": "2024-05-02",
-        "complete": false,
+        "complete": true,
         "home": "MIA",
-        "away": "COL"
+        "away": "COL",
+        "home_score": "5",
+        "away_score": "4",
+        "home_win": true
     },
     "502NYM": {
         "id": "502NYM",
         "date": "2024-05-02",
-        "complete": false,
+        "complete": true,
         "home": "NYM",
-        "away": "CHC"
+        "away": "CHC",
+        "home_score": "7",
+        "away_score": "6",
+        "home_win": true
     },
     "502BAL": {
         "id": "502BAL",
         "date": "2024-05-02",
-        "complete": false,
+        "complete": true,
         "home": "BAL",
-        "away": "NYY"
+        "away": "NYY",
+        "home_score": "7",
+        "away_score": "2",
+        "home_win": true
     },
     "502BOS": {
         "id": "502BOS",
         "date": "2024-05-02",
-        "complete": false,
+        "complete": true,
         "home": "BOS",
-        "away": "SFG"
+        "away": "SFG",
+        "home_score": "1",
+        "away_score": "3",
+        "home_win": false
     },
     "502HOU": {
         "id": "502HOU",
@@ -4735,9 +4747,12 @@
     "502TEX": {
         "id": "502TEX",
         "date": "2024-05-02",
-        "complete": false,
+        "complete": true,
         "home": "TEX",
-        "away": "WSH"
+        "away": "WSH",
+        "home_score": "6",
+        "away_score": "0",
+        "home_win": true
     },
     "503ARI": {
         "id": "503ARI",
