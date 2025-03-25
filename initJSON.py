@@ -7,7 +7,7 @@ data = {}
 
 def initJSON():
     os.system('cls')
-    with open('schedule2024.csv', newline='') as schedFile:
+    with open('schedule2025.csv', newline='') as schedFile:
         schedReader = csv.reader(schedFile, delimiter=' ', quotechar='|')
         for row in schedReader:
             list = row[0].split(",")
@@ -23,7 +23,7 @@ def initJSON():
                     addEntry(match, id, list[0])
 
 
-    with open("games2024.json", "w") as outfile:
+    with open("games2025.json", "w") as outfile:
         json.dump(data, outfile, indent = 4)
     input("JSON itialization sucessful. Press enter to continue:")
 
@@ -34,3 +34,6 @@ def addEntry(match, id, date):
                       "home": match[4:],
                       "away": match[:3]}})
     return
+
+if __name__ == '__main__':
+    initJSON()

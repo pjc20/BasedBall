@@ -7,11 +7,11 @@ from updateTeams import updateTeams
 def updateGames():
     while (True):
         os.system('cls')
-        with open("games2024.json",'r+') as gamesFile:
+        with open("games2025.json",'r+') as gamesFile:
             data = json.load(gamesFile)
             print('Enter date [MDD] or game ID to update, all to show incomplete to date, s to run simulation, x to exit:')
             cmd = input()
-            date = "2024-0"+cmd[:1]+"-"+cmd[1:3]
+            date = "2025-0"+cmd[:1]+"-"+cmd[1:3]
 
             if cmd == "all":
                 today = datetime.today()-timedelta(hours=6)
@@ -20,7 +20,7 @@ def updateGames():
                         print(data[match]["id"])
                 input("Press enter to continue")
             elif cmd == "s":
-                iterations = int(input("Enter number of iterations: "))
+                iterations = 250000 #int(input("Enter number of iterations: "))
                 simulate.simulate(iterations)
                 input("Simulation complete. Press enter to continue")
             elif len(cmd) == 3:

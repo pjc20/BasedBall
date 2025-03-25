@@ -90,16 +90,16 @@ def simulateSeason(teamData,igameData, i):
 
 def simulate(iterations):
     count = initCount()
-    with open("games2024.json",'r+') as gamesFile:
+    with open("games2025.json",'r+') as gamesFile:
         gameData = json.load(gamesFile)
-    with open("teams2024.json",'r+') as teamFile:
+    with open("teams2025.json",'r+') as teamFile:
         teamData = json.load(teamFile)
         for team in teamData:
             del teamData[team]["h2h"]
             del teamData[team]["intradiv_W/L"]
             del teamData[team]["interdiv_W/L"]
 
-    psteams = process_map(simulateSeason, itertools.repeat(teamData), itertools.repeat(gameData), range(iterations), max_workers=8, chunksize=25, total=iterations)
+    psteams = process_map(simulateSeason, itertools.repeat(teamData), itertools.repeat(gameData), range(iterations), max_workers=16, chunksize=25, total=iterations)
     
     for i in psteams:
         for team in i:

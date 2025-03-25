@@ -3,7 +3,7 @@ import json
 teamData = {}
 teamList = {"ALE":["BAL","BOS","NYY","TBR","TOR"],
             "ALC":["CLE","CHW","DET","KCR","MIN"],
-            "ALW":["HOU","LAA","OAK","SEA","TEX"],
+            "ALW":["HOU","LAA","ATH","SEA","TEX"],
             "NLE":["ATL","MIA","NYM","PHI","WSH"],
             "NLC":["CHC","CIN","MIL","PIT","STL"],
             "NLW":["ARI","COL","LAD","SDP","SFG"]}
@@ -11,7 +11,7 @@ teamList = {"ALE":["BAL","BOS","NYY","TBR","TOR"],
 def updateTeams():
     initTeams()
 
-    with open("games2024.json",'r+') as gamesFile:
+    with open("games2025.json",'r+') as gamesFile:
         gameData = json.load(gamesFile)
 
         for id in gameData:
@@ -25,7 +25,7 @@ def updateTeams():
         #for team in teamData:
         #    print(team+": "+str(teamData[team]["Pavg"]))
 
-    with open("teams2024.json", "w") as outfile:
+    with open("teams2025.json", "w") as outfile:
         json.dump(teamData, outfile, indent = 4)
 
 def h2hInit(curTeam):
