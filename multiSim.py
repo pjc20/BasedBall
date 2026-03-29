@@ -16,7 +16,7 @@ def prune(data,sel):
 
 def daySim(day,iterations):
     count = sim.initCount()
-    with open("games2025.json",'r+') as gamesFile:
+    with open("games2026.json",'r+') as gamesFile:
         gameData = prune(json.load(gamesFile),day)
     teamData = updateTeams.initTeams()
     for id in gameData:
@@ -34,7 +34,7 @@ def daySim(day,iterations):
 
 def init_dateList():
     list = []
-    with open("games2025.json",'r+') as gamesFile:
+    with open("games2026.json",'r+') as gamesFile:
         gameData = json.load(gamesFile)
     for match in gameData:
         if not gameData[match]["date"] in list and gameData[match]["complete"]:

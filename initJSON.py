@@ -7,13 +7,15 @@ data = {}
 
 def initJSON():
     os.system('cls')
-    with open('schedule2025.csv', newline='') as schedFile:
+    with open('schedule2026.csv', newline='') as schedFile:
         schedReader = csv.reader(schedFile, delimiter=' ', quotechar='|')
         for row in schedReader:
             list = row[0].split(",")
             date = datetime.strptime(list[0], "%Y-%m-%d")
             for match in list[1:]:
-                if match[3] == "2":
+                if match == "":
+                    continue
+                elif match[3] == "2":
                     id = (datetime.strftime(date, "%m%d")+match[4:])[1:]+"1"
                     addEntry(match, id, list[0])
                     id = (datetime.strftime(date, "%m%d")+match[4:])[1:]+"2"
@@ -23,7 +25,7 @@ def initJSON():
                     addEntry(match, id, list[0])
 
 
-    with open("games2025.json", "w") as outfile:
+    with open("games2026.json", "w") as outfile:
         json.dump(data, outfile, indent = 4)
     input("JSON itialization sucessful. Press enter to continue:")
 
