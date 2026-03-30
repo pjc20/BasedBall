@@ -2,317 +2,452 @@
     "325SFG": {
         "id": "325SFG",
         "date": "2026-03-25",
-        "complete": false,
+        "complete": true,
         "home": "SFG",
-        "away": "NYY"
+        "away": "NYY",
+        "home_score": "0",
+        "away_score": "7",
+        "home_win": false
     },
     "326ATL": {
         "id": "326ATL",
-        "date": "2026-03-26",
-        "complete": false,
+        "date": "2026-03-27",
+        "complete": true,
         "home": "ATL",
-        "away": "KCR"
+        "away": "KCR",
+        "home_score": "6",
+        "away_score": "0",
+        "home_win": true
     },
     "326CHC": {
         "id": "326CHC",
         "date": "2026-03-26",
-        "complete": false,
+        "complete": true,
         "home": "CHC",
-        "away": "WSH"
+        "away": "WSH",
+        "home_score": "4",
+        "away_score": "10",
+        "home_win": false
     },
     "326CIN": {
         "id": "326CIN",
         "date": "2026-03-26",
-        "complete": false,
+        "complete": true,
         "home": "CIN",
-        "away": "BOS"
+        "away": "BOS",
+        "home_score": "0",
+        "away_score": "3",
+        "home_win": false
     },
     "326LAD": {
         "id": "326LAD",
         "date": "2026-03-26",
-        "complete": false,
+        "complete": true,
         "home": "LAD",
-        "away": "ARI"
+        "away": "ARI",
+        "home_score": "8",
+        "away_score": "2",
+        "home_win": true
     },
     "326MIA": {
         "id": "326MIA",
-        "date": "2026-03-26",
-        "complete": false,
+        "date": "2026-03-27",
+        "complete": true,
         "home": "MIA",
-        "away": "COL"
+        "away": "COL",
+        "home_score": "2",
+        "away_score": "1",
+        "home_win": true
     },
     "326MIL": {
         "id": "326MIL",
         "date": "2026-03-26",
-        "complete": false,
+        "complete": true,
         "home": "MIL",
-        "away": "CHW"
+        "away": "CHW",
+        "home_score": "14",
+        "away_score": "2",
+        "home_win": true
     },
     "326NYM": {
         "id": "326NYM",
         "date": "2026-03-26",
-        "complete": false,
+        "complete": true,
         "home": "NYM",
-        "away": "PIT"
+        "away": "PIT",
+        "home_score": "11",
+        "away_score": "7",
+        "home_win": true
     },
     "326PHI": {
         "id": "326PHI",
         "date": "2026-03-26",
-        "complete": false,
+        "complete": true,
         "home": "PHI",
-        "away": "TEX"
+        "away": "TEX",
+        "home_score": "5",
+        "away_score": "3",
+        "home_win": true
     },
     "326SDP": {
         "id": "326SDP",
         "date": "2026-03-26",
-        "complete": false,
+        "complete": true,
         "home": "SDP",
-        "away": "DET"
+        "away": "DET",
+        "home_score": "2",
+        "away_score": "8",
+        "home_win": false
     },
     "326STL": {
         "id": "326STL",
         "date": "2026-03-26",
-        "complete": false,
+        "complete": true,
         "home": "STL",
-        "away": "TBR"
+        "away": "TBR",
+        "home_score": "9",
+        "away_score": "7",
+        "home_win": true
     },
     "326BAL": {
         "id": "326BAL",
         "date": "2026-03-26",
-        "complete": false,
+        "complete": true,
         "home": "BAL",
-        "away": "MIN"
+        "away": "MIN",
+        "home_score": "2",
+        "away_score": "1",
+        "home_win": true
     },
     "326HOU": {
         "id": "326HOU",
         "date": "2026-03-26",
-        "complete": false,
+        "complete": true,
         "home": "HOU",
-        "away": "LAA"
+        "away": "LAA",
+        "home_score": "0",
+        "away_score": "3",
+        "home_win": false
     },
     "326SEA": {
         "id": "326SEA",
         "date": "2026-03-26",
-        "complete": false,
+        "complete": true,
         "home": "SEA",
-        "away": "CLE"
+        "away": "CLE",
+        "home_score": "4",
+        "away_score": "6",
+        "home_win": false
     },
     "327LAD": {
         "id": "327LAD",
         "date": "2026-03-27",
-        "complete": false,
+        "complete": true,
         "home": "LAD",
-        "away": "ARI"
+        "away": "ARI",
+        "home_score": "5",
+        "away_score": "4",
+        "home_win": true
     },
     "327SDP": {
         "id": "327SDP",
         "date": "2026-03-27",
-        "complete": false,
+        "complete": true,
         "home": "SDP",
-        "away": "DET"
+        "away": "DET",
+        "home_score": "2",
+        "away_score": "5",
+        "home_win": false
     },
     "327SFG": {
         "id": "327SFG",
         "date": "2026-03-27",
-        "complete": false,
+        "complete": true,
         "home": "SFG",
-        "away": "NYY"
+        "away": "NYY",
+        "home_score": "0",
+        "away_score": "3",
+        "home_win": false
     },
     "327HOU": {
         "id": "327HOU",
         "date": "2026-03-27",
-        "complete": false,
+        "complete": true,
         "home": "HOU",
-        "away": "LAA"
+        "away": "LAA",
+        "home_score": "2",
+        "away_score": "6",
+        "home_win": false
     },
     "327SEA": {
         "id": "327SEA",
         "date": "2026-03-27",
-        "complete": false,
+        "complete": true,
         "home": "SEA",
-        "away": "CLE"
+        "away": "CLE",
+        "home_score": "5",
+        "away_score": "1",
+        "home_win": true
     },
     "327TOR": {
         "id": "327TOR",
         "date": "2026-03-27",
-        "complete": false,
+        "complete": true,
         "home": "TOR",
-        "away": "ATH"
+        "away": "ATH",
+        "home_score": "3",
+        "away_score": "2",
+        "home_win": true
     },
     "328ATL": {
         "id": "328ATL",
         "date": "2026-03-28",
-        "complete": false,
+        "complete": true,
         "home": "ATL",
-        "away": "KCR"
+        "away": "KCR",
+        "home_score": "6",
+        "away_score": "2",
+        "home_win": true
     },
     "328CHC": {
         "id": "328CHC",
         "date": "2026-03-28",
-        "complete": false,
+        "complete": true,
         "home": "CHC",
-        "away": "WSH"
+        "away": "WSH",
+        "home_score": "10",
+        "away_score": "2",
+        "home_win": true
     },
     "328CIN": {
         "id": "328CIN",
         "date": "2026-03-28",
-        "complete": false,
+        "complete": true,
         "home": "CIN",
-        "away": "BOS"
+        "away": "BOS",
+        "home_score": "6",
+        "away_score": "5",
+        "home_win": true
     },
     "328LAD": {
         "id": "328LAD",
         "date": "2026-03-28",
-        "complete": false,
+        "complete": true,
         "home": "LAD",
-        "away": "ARI"
+        "away": "ARI",
+        "home_score": "3",
+        "away_score": "2",
+        "home_win": true
     },
     "328MIA": {
         "id": "328MIA",
         "date": "2026-03-28",
-        "complete": false,
+        "complete": true,
         "home": "MIA",
-        "away": "COL"
+        "away": "COL",
+        "home_score": "4",
+        "away_score": "3",
+        "home_win": true
     },
     "328MIL": {
         "id": "328MIL",
         "date": "2026-03-28",
-        "complete": false,
+        "complete": true,
         "home": "MIL",
-        "away": "CHW"
+        "away": "CHW",
+        "home_score": "6",
+        "away_score": "1",
+        "home_win": true
     },
     "328NYM": {
         "id": "328NYM",
         "date": "2026-03-28",
-        "complete": false,
+        "complete": true,
         "home": "NYM",
-        "away": "PIT"
+        "away": "PIT",
+        "home_score": "4",
+        "away_score": "2",
+        "home_win": true
     },
     "328PHI": {
         "id": "328PHI",
         "date": "2026-03-28",
-        "complete": false,
+        "complete": true,
         "home": "PHI",
-        "away": "TEX"
+        "away": "TEX",
+        "home_score": "4",
+        "away_score": "5",
+        "home_win": false
     },
     "328SDP": {
         "id": "328SDP",
         "date": "2026-03-28",
-        "complete": false,
+        "complete": true,
         "home": "SDP",
-        "away": "DET"
+        "away": "DET",
+        "home_score": "3",
+        "away_score": "0",
+        "home_win": true
     },
     "328SFG": {
         "id": "328SFG",
         "date": "2026-03-28",
-        "complete": false,
+        "complete": true,
         "home": "SFG",
-        "away": "NYY"
+        "away": "NYY",
+        "home_score": "1",
+        "away_score": "3",
+        "home_win": false
     },
     "328STL": {
         "id": "328STL",
         "date": "2026-03-28",
-        "complete": false,
+        "complete": true,
         "home": "STL",
-        "away": "TBR"
+        "away": "TBR",
+        "home_score": "6",
+        "away_score": "5",
+        "home_win": true
     },
     "328BAL": {
         "id": "328BAL",
         "date": "2026-03-28",
-        "complete": false,
+        "complete": true,
         "home": "BAL",
-        "away": "MIN"
+        "away": "MIN",
+        "home_score": "1",
+        "away_score": "4",
+        "home_win": false
     },
     "328HOU": {
         "id": "328HOU",
         "date": "2026-03-28",
-        "complete": false,
+        "complete": true,
         "home": "HOU",
-        "away": "LAA"
+        "away": "LAA",
+        "home_score": "11",
+        "away_score": "9",
+        "home_win": true
     },
     "328SEA": {
         "id": "328SEA",
         "date": "2026-03-28",
-        "complete": false,
+        "complete": true,
         "home": "SEA",
-        "away": "CLE"
+        "away": "CLE",
+        "home_score": "5",
+        "away_score": "6",
+        "home_win": false
     },
     "328TOR": {
         "id": "328TOR",
         "date": "2026-03-28",
-        "complete": false,
+        "complete": true,
         "home": "TOR",
-        "away": "ATH"
+        "away": "ATH",
+        "home_score": "8",
+        "away_score": "7",
+        "home_win": true
     },
     "329ATL": {
         "id": "329ATL",
         "date": "2026-03-29",
-        "complete": false,
+        "complete": true,
         "home": "ATL",
-        "away": "KCR"
+        "away": "KCR",
+        "home_score": "1",
+        "away_score": "4",
+        "home_win": false
     },
     "329CHC": {
         "id": "329CHC",
         "date": "2026-03-29",
-        "complete": false,
+        "complete": true,
         "home": "CHC",
-        "away": "WSH"
+        "away": "WSH",
+        "home_score": "3",
+        "away_score": "6",
+        "home_win": false
     },
     "329CIN": {
         "id": "329CIN",
         "date": "2026-03-29",
-        "complete": false,
+        "complete": true,
         "home": "CIN",
-        "away": "BOS"
+        "away": "BOS",
+        "home_score": "3",
+        "away_score": "2",
+        "home_win": true
     },
     "329MIA": {
         "id": "329MIA",
         "date": "2026-03-29",
-        "complete": false,
+        "complete": true,
         "home": "MIA",
-        "away": "COL"
+        "away": "COL",
+        "home_score": "4",
+        "away_score": "3",
+        "home_win": true
     },
     "329MIL": {
         "id": "329MIL",
         "date": "2026-03-29",
-        "complete": false,
+        "complete": true,
         "home": "MIL",
-        "away": "CHW"
+        "away": "CHW",
+        "home_score": "9",
+        "away_score": "7",
+        "home_win": true
     },
     "329NYM": {
         "id": "329NYM",
         "date": "2026-03-29",
-        "complete": false,
+        "complete": true,
         "home": "NYM",
-        "away": "PIT"
+        "away": "PIT",
+        "home_score": "3",
+        "away_score": "4",
+        "home_win": false
     },
     "329PHI": {
         "id": "329PHI",
         "date": "2026-03-29",
-        "complete": false,
+        "complete": true,
         "home": "PHI",
-        "away": "TEX"
+        "away": "TEX",
+        "home_score": "3",
+        "away_score": "8",
+        "home_win": false
     },
     "329STL": {
         "id": "329STL",
         "date": "2026-03-29",
-        "complete": false,
+        "complete": true,
         "home": "STL",
-        "away": "TBR"
+        "away": "TBR",
+        "home_score": "7",
+        "away_score": "11",
+        "home_win": false
     },
     "329BAL": {
         "id": "329BAL",
         "date": "2026-03-29",
-        "complete": false,
+        "complete": true,
         "home": "BAL",
-        "away": "MIN"
+        "away": "MIN",
+        "home_score": "8",
+        "away_score": "6",
+        "home_win": true
     },
     "329HOU": {
         "id": "329HOU",
         "date": "2026-03-29",
-        "complete": false,
+        "complete": true,
         "home": "HOU",
-        "away": "LAA"
+        "away": "LAA",
+        "home_score": "9",
+        "away_score": "7",
+        "home_win": true
     },
     "329SEA": {
         "id": "329SEA",
@@ -324,9 +459,12 @@
     "329TOR": {
         "id": "329TOR",
         "date": "2026-03-29",
-        "complete": false,
+        "complete": true,
         "home": "TOR",
-        "away": "ATH"
+        "away": "ATH",
+        "home_score": "5",
+        "away_score": "2",
+        "home_win": true
     },
     "330ARI": {
         "id": "330ARI",
@@ -8028,11 +8166,18 @@
         "home": "NYY",
         "away": "CIN"
     },
-    "6202-SEA": {
-        "id": "6202-SEA",
+    "620SEA1": {
+        "id": "620SEA1",
         "date": "2026-06-20",
         "complete": false,
-        "home": "2-SEA",
+        "home": "SEA",
+        "away": "BOS"
+    },
+    "620SEA2": {
+        "id": "620SEA2",
+        "date": "2026-06-20",
+        "complete": false,
+        "home": "SEA",
         "away": "BOS"
     },
     "620TBR": {

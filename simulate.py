@@ -90,9 +90,9 @@ def simulateSeason(teamData,igameData, i):
 
 def simulate(iterations):
     count = initCount()
-    with open("games2025.json",'r+') as gamesFile:
+    with open("games2026.json",'r+') as gamesFile:
         gameData = json.load(gamesFile)
-    with open("teams2025.json",'r+') as teamFile:
+    with open("teams2026.json",'r+') as teamFile:
         teamData = json.load(teamFile)
         for team in teamData:
             del teamData[team]["h2h"]
